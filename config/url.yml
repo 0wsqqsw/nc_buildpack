@@ -1,4 +1,0 @@
----
-base: http://download.pivotal.io.s3.amazonaws.com
-default:
-  jdk: /openjdk/lucid/x86_64/openjdk-1.7.0_45.tar.gz 
