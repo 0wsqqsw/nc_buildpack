@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+if [ -d "${BUILD_DIR}/home" ]; then
+    echo "NC"
+    exit 0
+fi
+
+echo "no"
+exit 1
